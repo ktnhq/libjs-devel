@@ -1,3 +1,7 @@
 [workspace]
 resolver = "2"
-members = ["core/*/", "compat/*/", "extra/*/"]
+members = [
+    "core/*/",
+    "compat/*/",
+    "extra/*/"
+]
