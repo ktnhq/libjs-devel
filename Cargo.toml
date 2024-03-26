@@ -1,7 +1,3 @@
 [workspace]
 resolver = "2"
-members = [
-    "core/ktnc",
-    "compat/node",
-    "extra/http"
-]
+members = ["core/*/", "compat/*/", "extra/*/"]
