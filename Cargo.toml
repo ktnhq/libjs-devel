@@ -1,7 +1,6 @@
 [workspace]
 resolver = "2"
-members = [
-    "core/*/",
-    "compat/*/",
-    "extra/*/"
-]
+members = ["core/*/", "compat/*/", "extra/*/", "core/js_core_macros"]
+
+[workspace.dependencies]
+js_core = { path = "core/js_core" }

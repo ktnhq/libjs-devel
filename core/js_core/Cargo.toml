@@ -1,9 +1,9 @@
 [package]
-name = "http"
+name = "js_core"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
 
 [dependencies]
-js_core = { workspace = true }
+js_core_macros = { path = "../js_core_macros" }
